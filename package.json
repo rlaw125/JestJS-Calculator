@@ -6,6 +6,9 @@
   "scripts": {
     "test": "npx jest"
   },
+  "engines": {
+    "node": "10.16.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hberry79/Express-Calculator.git"
