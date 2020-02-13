@@ -5,7 +5,7 @@
   "main": "calculator.js",
   "scripts": {
     "test": "npx jest",
-    "start": "npm start"
+    "start": "node calculator.js"
   },
   "repository": {
     "type": "git",
