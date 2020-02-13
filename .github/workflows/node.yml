@@ -24,6 +24,6 @@ jobs:
     - name: Deploy to Heroku
       env:
         HEROKU_TOKEN: ${{ secrets.HEROKU_TOKEN }}
-        HEROKU_APP_NAME: "stormy-ravine-95122"
-      if: github.ref == "refs/heads/master" && job.status == "success"
+        HEROKU_APP_NAME: 'stormy-ravine-95122'
+      if: github.ref == 'refs/heads/master' && job.status == 'success'
       run: git push https://heroku:$HEROKU_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
