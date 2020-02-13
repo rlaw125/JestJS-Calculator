@@ -20,8 +20,8 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - name: Deploy to Heroku
     - uses: deploying directly via GitHub
+    - name: Deploy to Heroku
     - env:
         HEROKU_TOKEN: ${{ secrets.HEROKU_TOKEN }}
         HEROKU_APP_NAME: "stormy-ravine-95122"
