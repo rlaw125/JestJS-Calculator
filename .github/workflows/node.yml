@@ -20,7 +20,7 @@ jobs:
     - run: npm test
       env:
         CI: true
-    - uses: deploying directly via GitHub
+    - uses: actions/deploy-Heroku
     - name: Deploy to Heroku
     - env:
         HEROKU_TOKEN: ${{ secrets.HEROKU_TOKEN }}
