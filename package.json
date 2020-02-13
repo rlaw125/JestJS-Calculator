@@ -5,7 +5,10 @@
   "main": "calculator.js",
   "scripts": {
     "test": "npx jest",
-    "start": "node calculator.js"
+    "start": "npm start"
+  },
+  "engines": {
+    "node": "^10.16.3"
   },
   "repository": {
     "type": "git",
