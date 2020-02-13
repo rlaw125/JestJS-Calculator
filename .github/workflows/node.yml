@@ -21,6 +21,7 @@ jobs:
       env:
         CI: true
     - name: Deploy to Heroku
+    - uses: deploying directly via GitHub
     - env:
         HEROKU_TOKEN: ${{ secrets.HEROKU_TOKEN }}
         HEROKU_APP_NAME: "stormy-ravine-95122"
