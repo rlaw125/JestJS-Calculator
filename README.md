@@ -1,4 +1,5 @@
 # Express-Calculator
+A simple application built with Node.js that integrates CI/CD processes using Jest testing framework and GitHub Actions.
 
 ## Instructions
 There are four operation values which a user may use: *addition, subtraction, multiplication, and division.*
